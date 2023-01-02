@@ -8,7 +8,7 @@ export default function Entry(props){
                 <section className='entry--stats'>
                     <img src = {require("../images/location-pin.png")} className = "entry--pin"/>
                     <h3 className='entry--loc'>{props.item.location}</h3>
-                    <a href = {props.item.googleMapsUrl} >View on Google Maps</a>
+                    <a className = 'entry--link' href = {props.item.googleMapsUrl} >View on Google Maps</a>
                 </section>
                 <section className = 'entry--text'>
                     <h2 className='entry--title'>{props.item.title}</h2>

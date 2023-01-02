@@ -39,7 +39,7 @@ nav{
 .entry--stats{
     display: flex;
     justify-content: space-between;
-    max-width: 400px;
+    max-width: 300px;
     padding-top: 50px;
 
 }
@@ -49,13 +49,18 @@ nav{
     padding-right: 0px;
 }
 
+.entry--link{
+    color: grey;
+}
+
 
 .entry--loc{
     font-weight: lighter;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
+    max-height: 30px;
 }
 
 .entry--text{
-    max-width: 250px;
+    max-width: 300px;
     font-weight: lighter;
 }
